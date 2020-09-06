@@ -1,0 +1,25 @@
+{
+  "name": "mzs-randomarray",
+  "version": "1.0.0",
+  "description": "Create a simple random length array filled with random negative and positive integers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrzacsmith/mzs-randomArray.git"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "arrays",
+    "sort"
+  ],
+  "author": "Mr Zac Smith <zrs3141592@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrzacsmith/mzs-randomArray/issues"
+  },
+  "homepage": "https://github.com/mrzacsmith/mzs-randomArray#readme"
+}
