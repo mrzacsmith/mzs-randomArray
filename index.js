@@ -1,14 +1,17 @@
-let randomArray = []
+const randomArray = []
 
-const arrayLength = (maxNum) => Math.floor(Math.random() * maxNum) + 3
-const arrayValues = () => Math.floor(Math.random() * 500) - 30
+const arrLength = (range) => {
+  return Math.floor(Math.random() * range) + 3
+}
+const arrValues = () => {
+  return Math.floor(Math.random() * 500) - 30
+}
 
-const createRandomArray = (n, cb = arrayValues) => {
-  let max = arrayLength(n)
-  for (let i = 0; i < max.length + 1; i++) {
+const createRandomArray = (n, cb = arrValues) => {
+  let max = arrLength(n)
+  for (let i = 0; i < max; i++) {
     let ran = cb()
     randomArray.push(ran)
-    console.log(randomArray)
   }
   return randomArray
 }
