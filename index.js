@@ -8,6 +8,10 @@ const arrValues = () => {
 }
 
 const createRandomArray = (n, cb = arrValues) => {
+  if (typeof n !== 'number') {
+    n = 10
+  }
+
   let max = arrLength(n)
   for (let i = 0; i < max; i++) {
     let ran = cb()
