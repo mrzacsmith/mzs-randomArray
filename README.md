@@ -9,7 +9,7 @@ This package can make creating a random array easy, and is useful for testing so
 
 ### Installation
 
-`npm i mzs-randomnumber`
+`npm i mzs-randomarray`
 
 ### Usage
 
