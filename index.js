@@ -8,7 +8,7 @@ const arrValues = () => {
 }
 
 const createRandomArray = (n, cb = arrValues) => {
-  if (typeof n !== 'number') {
+  if (typeof n !== 'number' || n <= 1 || n == null) {
     n = 10
   }
 

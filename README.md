@@ -13,13 +13,15 @@ This package can make creating a random array easy, and is useful for testing so
 
 ### Usage
 
-The function takes 2 parameters `createRandomArray(maxNum, cb):
+The function takes 2 parameters `createRandomArray(maxNum, cb)`:
 
 - max = the maximum length of the array, randomly generated.
 - cb = arrValues and defaulted so only a single parameter is used.
+- It is recommended that you set the output of this function into a variable, as shown below.
 
 - `const createRandomArray = require('mzs-random-array')`
 - `createRandomArray(max)`
+- `const arrayToBeSorted = createRandomArray(12)` ~ set random array to preserve the array for reference
 
 ### Tests
 
