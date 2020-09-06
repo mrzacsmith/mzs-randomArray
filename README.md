@@ -23,7 +23,8 @@ The function takes 2 parameters `createRandomArray(maxNum, cb):
 
 ### Tests
 
-NONE currently
+Run `node test.js` will produce two tables, one testing non-inter input will default max=10, and second
+will use integer for max=20.
 
 ### Contributing
 
