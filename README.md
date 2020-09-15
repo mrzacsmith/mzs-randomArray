@@ -38,4 +38,4 @@ will use integer for max=20.
 
 ### Contributing
 
-See the file named CONTRIBUTING.md
+See the file named [CONTRIBUTING](https://github.com/mrzacsmith/mzs-randomArray/blob/master/CONTRIBUTING.md)
