@@ -1,7 +1,7 @@
 ## Random Array Generator
 
 This package returns an array of integers of random length from 3 to max based on parameter.
-The array will be randomly filled in the range of default `-30 > value < 500`.
+The array will be randomly filled in the range of default `-30 < value < 500`.
 
 ### Purpose
 
@@ -13,7 +13,7 @@ This package can make creating a random array easy, and is useful for testing so
 
 ### Usage
 
-The function takes 3 parameters, all of them have default values: `createRandomArray(maxNum, minV = 30, maxV = 500)`
+The function takes 3 parameters, all of them have default values: `createRandomArray(maxNum, minV = -30, maxV = 500)`
 
 - max = the maximum length of the array, randomly generated.
 - cb = arrValues and defaulted so only a single parameter is used.
