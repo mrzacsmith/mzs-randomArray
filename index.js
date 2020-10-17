@@ -4,12 +4,13 @@ const arrLength = (range) => {
   return Math.floor(Math.random() * range) + 3
 }
 const arrValues = (minV, maxV) => {
-  return Math.floor(Math.random() * maxV) - Math.abs(minV)
+  return Math.floor(Math.random() * (maxV - minV)) + minV
 }
 
 const createRandomArray = (n, minV = 30, maxV = 500, cb = arrValues) => {
   if (!Number.isInteger(n) || n <= 1 ) {
     console.log("n must be an integer greater than 1.")
+
     n = 10
   }
 
